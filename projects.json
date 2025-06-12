@@ -1,0 +1,47 @@
+[
+  {
+    "projectImg": "./images/project-1.jpg",
+    "projectName": "architect website",
+    "projectStack": "HTML / CSS / JS"
+  },
+  {
+    "projectImg": "./images/project-2.jpg",
+    "projectName": "Budget App",
+    "projectStack": "ReactJS"
+  },
+  {
+    "projectImg": "./images/project-3.jpg",
+    "projectName": "Wine house",
+    "projectStack": "HTML / CSS / JS"
+  },
+  {
+    "projectImg": "./images/project-4.jpg",
+    "projectName": "Task Manager",
+    "projectStack": "ReactJS"
+  },
+  {
+    "projectImg": "./images/project-5.jpg",
+    "projectName": "The Road",
+    "projectStack": "HTML / CSS / JS"
+  },
+  {
+    "projectImg": "./images/project-6.jpg",
+    "projectName": "Food Recipe App",
+    "projectStack": "ReactJS"
+  },
+  {
+    "projectImg": "./images/project-7.jpg",
+    "projectName": "Slideshow",
+    "projectStack": "HTML / CSS / JS"
+  },
+  {
+    "projectImg": "./images/project-8.jpg",
+    "projectName": "Hamburger menu",
+    "projectStack": "HTML / CSS / JS"
+  },
+  {
+    "projectImg": "./images/project-9.jpg",
+    "projectName": "CSS Grid Menu",
+    "projectStack": "HTML / CSS / JS"
+  }
+]
