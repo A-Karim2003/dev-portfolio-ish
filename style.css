@@ -150,3 +150,97 @@ header nav ul li:hover .nav-link::before {
 .nav-link:hover {
   color: white;
 }
+
+/* ------------------------section-2---------------------- */
+
+.section-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5rem 0;
+}
+
+.section-2-heading {
+  font-size: 5rem;
+  color: #333;
+  text-transform: uppercase;
+  letter-spacing: 0.5rem;
+  margin-bottom: 15rem;
+  border-bottom: 0.3rem solid #333;
+  text-shadow: 0.2rem 0.2rem 0.5rem #555;
+}
+
+.tech-stacks {
+  max-width: 60rem;
+  width: 100%;
+}
+
+.tech-stacks li {
+  width: 60rem;
+  height: 3rem;
+  background-color: #ccc;
+  margin: 1.5rem 0;
+  border-radius: 0.3rem;
+  box-shadow: 0.2rem 0.2rem 1rem #555;
+  position: relative;
+  display: flex;
+  align-items: center;
+  color: white;
+  font-size: 2rem;
+}
+.tech-stacks li p {
+  margin-left: 1rem;
+  position: absolute;
+  z-index: 1;
+}
+.tech-stacks li span {
+  font-weight: 700;
+  margin-left: 2rem;
+}
+
+.progress-percent {
+  width: 0%;
+  height: 100%;
+  background-color: #e41c6f;
+  border-radius: 0.3rem;
+  transition: width 0.5s 0.5s ease-in-out;
+  position: absolute;
+}
+
+/* Styles for the services */
+
+.services {
+  margin-top: 10rem;
+  display: grid;
+  grid-template-columns: repeat(4, minmax(auto, 1fr));
+  gap: 8rem;
+}
+
+.service {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.service i {
+  font-size: 10rem;
+  color: #888;
+  margin-bottom: 2rem;
+  text-shadow: 0.1rem 0.1rem 0.5rem #555;
+}
+
+.service h2 {
+  font-size: 2rem;
+  color: #fff;
+  background-color: #777;
+  width: 25rem;
+  letter-spacing: 0.3rem;
+  transform: skew(-10deg);
+  box-shadow: 0.2rem 0.2rem 0.5rem #555;
+  text-align: center;
+}
+
+.posTop {
+  transform: translateY(-10rem);
+}

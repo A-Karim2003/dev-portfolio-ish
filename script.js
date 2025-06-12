@@ -1,11 +1,16 @@
-"use strict";
+const techStack = document.querySelector(".tech-stacks");
 
-const observerCallback = (entries, observer) => {
+("use strict");
+
+const observerCallback = (entries) => {
   entries.forEach((entry) => {
     if (entry.isIntersecting) {
-      section3content.classList.add("change");
-      // ensures the element is only observed once
-      observer.unobserve(entry.target);
+      const progressList = techStack.querySelectorAll("li");
+      progressList.forEach((progress) => {
+        const progressPercentage = progress.querySelector("p span").textContent;
+        const progressElm = progress.querySelector(".progress-percent");
+        progressElm.style.width = progressPercentage;
+      });
     }
   });
 };
@@ -18,4 +23,4 @@ const observerOptions = {
 const observer = new IntersectionObserver(observerCallback, observerOptions);
 
 // 4. Start observing
-observer.observe(section3);
+observer.observe(techStack);
