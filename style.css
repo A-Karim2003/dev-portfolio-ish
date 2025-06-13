@@ -7,6 +7,10 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 :root {
   --primary-background: #e41c6f;
 }
@@ -147,6 +151,14 @@ header nav ul li {
 header nav ul li:hover .nav-link::before {
   width: 130%;
 }
+header nav ul li.active .nav-link::before {
+  width: 130%;
+}
+
+header nav ul li.active .nav-link {
+  color: white;
+}
+
 .nav-link:hover {
   color: white;
 }

@@ -14,7 +14,7 @@
 
 <body>
 
-  <section class="section-1">
+  <section class="section-1" id="home">
     <h1 class="dev-role">
       WEB DEVELOPER
     </h1>
@@ -32,18 +32,29 @@
     <header>
       <nav>
         <ul>
-          <li><a class="nav-link" href="#">Home</>
+          <li>
+            <a class="nav-link" data-section="home" href="#home">Home</a>
           </li>
-          <li><a class="nav-link" href="#">About</a></li>
-          <li><a class="nav-link" href="#">Portfolio</a></li>
-          <li><a class="nav-link" href="#">Contact</a></li>
+
+          <li>
+            <a class="nav-link" data-section="about" href="#about">About</a>
+          </li>
+
+          <li>
+            <a class="nav-link" data-section="portfolio" href="#portfolio">Portfolio</a>
+          </li>
+
+          <li>
+            <a class="nav-link" data-section="contact" href="#contact">Contact</a>
+          </li>
+
         </ul>
       </nav>
     </header>
 
   </section>
 
-  <section class="section-2">
+  <section class="section-2" id="about">
     <h1 class="section-heading">About Me</h1>
 
     <div class="tech-stacks">
@@ -104,13 +115,13 @@
     </div>
   </section>
 
-  <section class="section-3">
+  <section class="section-3" id="portfolio">
     <h1 class="section-heading">MY PROJECTS</h1>
     <div class="projects-container">
     </div>
   </section>
 
-  <section class="section-4">
+  <section class="section-4" id="contact">
     <h1 class="section-heading">Contact Me</h1>
 
     <form class="contact-form">
